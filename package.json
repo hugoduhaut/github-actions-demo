@@ -4,7 +4,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "build": "mkdir -p dist && echo '<html><body><h1>Build Successful</h1></body></html>' > dist/index.html"
+
   },
   "keywords": [],
   "author": "",
